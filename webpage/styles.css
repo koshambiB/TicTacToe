@@ -1,7 +1,7 @@
 body
 {
     margin:0px;
-   background-color:#2D2926FF;
+   background-color:#181512;
 
 }
 .container {
@@ -10,19 +10,28 @@ body
     justify-content: center; /* Horizontally center content */
     align-items: center; /* Vertically center content */
     height: 100vh; 
+    
   }
 .choose-player
 {
+    background-color: #D7DCD0;
     display:inline-block;
-   
-
+    object-position: center;
+    width: 380px;
+    height:350px;
+    opacity:0.9;
+    border-radius: 20px;
+    box-shadow: 12px 12px 5px rgba(0, 0, 0, 0.63);
 }
 .text
 {
     display:flex;
     justify-content: center; /* Horizontally center content */
-    align-items: center;font-size: 26px;
-    color:burlywood;
+    align-items: center;font-size: 30px;
+    color:#181512;
+    margin-top: 80px;
+    
+    
 }
 .computer,.user
 {
@@ -30,5 +39,9 @@ body
     height:30px;
     border-radius: 5px;
     border-color: transparent;
-    margin:2px;
+    margin:10px;
+    margin-right: 8px;
+    margin-left: 16px;
+    box-shadow: 1px 7px 5px rgba(0, 0, 0, 0.25);;
+
 }
