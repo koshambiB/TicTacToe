@@ -1,0 +1,34 @@
+body
+{
+    margin:0px;
+   background-color:#2D2926FF;
+
+}
+.container {
+    
+    display: flex; /* Enable flexbox layout for centering */
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    height: 100vh; 
+  }
+.choose-player
+{
+    display:inline-block;
+   
+
+}
+.text
+{
+    display:flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center;font-size: 26px;
+    color:burlywood;
+}
+.computer,.user
+{
+    width: 160px;
+    height:30px;
+    border-radius: 5px;
+    border-color: transparent;
+    margin:2px;
+}
