@@ -4,9 +4,9 @@ This is a simple Tic Tac Toe game implemented in Python. It allows two players t
 
 ## Features:
 
--Two-player Tic Tac Toe game <br\>
--Tracks wins for X, O, and draws <br\>
--Option to rematch after each game <br\>
+-Two-player Tic Tac Toe game <br/>
+-Tracks wins for X, O, and draws <br/>
+-Option to rematch after each game <br/>
 
 ## Requirements:
 
