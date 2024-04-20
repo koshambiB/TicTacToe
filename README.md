@@ -4,9 +4,9 @@ This is a simple Tic Tac Toe game implemented in Python. It allows two players t
 
 ## Features:
 
--Two-player Tic Tac Toe game
--Tracks wins for X, O, and draws
--Option to rematch after each game
+-Two-player Tic Tac Toe game<br/>
+-Tracks wins for X, O, and draws<br/>
+-Option to rematch after each game<br/>
 
 ## Requirements:
 
@@ -14,7 +14,7 @@ This is a simple Tic Tac Toe game implemented in Python. It allows two players t
 
 ## How to Play:
 
--Clone this repository.
+-[Clone this repository]()
 -Install any required dependencies (likely none in this case).
 -Run python `main.py`.
 -Follow the on-screen prompts to play the game.
@@ -28,8 +28,8 @@ The game uses a board represented by two lists (xval and oval), each containing 
 
 The code is organized into several functions:
 
-Oturn: Handles O player's turn, taking input, validating it, and updating the board.
-Xturn: Similar to Oturn but for X player.
+Oturn: Handles O player's turn, taking input, validating it, and updating the board. <br/>
+Xturn: Handles X player's turn, taking input, validating it, and updating the board. <br/>
 game: Main game loop that manages turns, win conditions, draws, and restarts.
 
 ## Playing the Game:

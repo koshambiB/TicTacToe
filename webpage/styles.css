@@ -27,21 +27,37 @@ body
 {
     display:flex;
     justify-content: center; /* Horizontally center content */
-    align-items: center;font-size: 30px;
+    align-items: center;
+    font-size: 32px;
     color:#181512;
     margin-top: 80px;
-    
+    font-family: "Kanit", sans-serif;
+    font-weight: 450;
     
 }
 .computer,.user
 {
     width: 160px;
     height:30px;
-    border-radius: 5px;
+    border-radius: 8px;
     border-color: transparent;
     margin:10px;
     margin-right: 8px;
     margin-left: 16px;
-    box-shadow: 1px 7px 5px rgba(0, 0, 0, 0.25);;
-
+    box-shadow: 1px 7px 5px rgba(0, 0, 0, 0.4);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    transition: ease 0.3s;
+}
+.computer:hover,.user:hover
+{
+    box-shadow: 1px 7px 5px rgba(0, 0, 0, 0.6); 
+    transform: scale(1.1);
+    cursor:pointer;
+}
+.computer:active,.user:active
+{
+  
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6); 
+  cursor:pointer;
 }
