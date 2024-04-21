@@ -12,10 +12,14 @@ This is a simple Tic Tac Toe game implemented in Python. It allows two players t
 
 **- Python 3.12.1**
 
-## How to Play:
+## How to install
 
--[Clone this repository]()
--Install any required dependencies (likely none in this case).
+-To get started [Clone the repository](https://github.com/git-guides/git-clone) to a convenient location on your local machine. <br/>
+You can use the following command in your terminal:
+
+```shell
+git clone https://github.com/a2ys/chess-ai.git
+```
 -Run python `main.py`.
 -Follow the on-screen prompts to play the game.
 -After a game, choose to rematch or exit.
