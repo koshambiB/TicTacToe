@@ -20,9 +20,9 @@ You can use the following command in your terminal:
 ```shell
 git clone https://github.com/a2ys/chess-ai.git
 ```
--Run python `main.py`.
--Follow the on-screen prompts to play the game.
--After a game, choose to rematch or exit.
+-Run python `main.py`. <br/>
+-Follow the on-screen prompts to play the game.<br/>
+-After a game, choose to rematch or exit.<br/>
 
 ## Game Logic:
 
