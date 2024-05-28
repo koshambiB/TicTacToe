@@ -18,7 +18,7 @@ This is a simple Tic Tac Toe game implemented in Python. It allows two players t
 You can run the following command on your terminal:
 
 ```shell
-git clone https://github.com/a2ys/chess-ai.git
+git clone https://github.com/koshambiB/TicTacToe.git
 ```
 -Run the command `python main.py`  on your terminal.<br/>
 -Follow the on-screen prompts to play the game.<br/>
