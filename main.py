@@ -4,20 +4,21 @@ from checkWin import checkWin  # Import checkWin function (likely for checking w
 
 def Oturn(xval,oval):
     Ovalue = int(input("ENTER THE VALUE FOR O: "))
-    if (
-        Ovalue not in range(9)
+    while(
+        Ovalue<0 or Ovalue >8
         or xval[Ovalue] != 9
         or oval[Ovalue] != 9
     ):  # Check for valid input (between 0-8, empty space)
         print("WRONG INPUT")
         Ovalue = int(input("Enter Again : "))
+    
     oval[Ovalue] = Ovalue
 
 
 def Xturn(xval,oval):
     Xvalue = int(input("ENTER THE VALUE FOR X : "))
-    if (
-        Xvalue not in range(9)
+    while (
+        Xvalue<0 or Xvalue >8
         or xval[Xvalue] != 9
         or oval[Xvalue] != 9
     ):  # Check for valid input (between 0-8, empty space)
@@ -62,7 +63,7 @@ def game(matches,owin,xwin):
         else:
             pass
 
-    st = str(input("Re-match?"))
+    st = str(input("Re-match? Y/N" ))
     if st == 'Y':
         game( matches+1,owin,xwin)  # Restart the game
     else:
